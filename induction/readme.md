@@ -5,5 +5,5 @@ This folder contains data used in article "Bayesian Classifier for Induction Mot
 Authors:
 
 - Kacper Jarzyna,
-- Micha≥ Rad,
+- Micha≈Ç Rad,
 - Jerzy Baranowski
