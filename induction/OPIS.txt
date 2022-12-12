@@ -1,0 +1,44 @@
+Foldery figures, tables, processed_data1 - dla rozpoznawania każdego rodzaju sygnału (zdrowy, uszkodzony 1 pręt, uszkodzone 2 pręty, uszkodzony pierścień)
+Foldery figures_2cat, tables_2cat, processed_data1 - dla rozpoznawania 2 kategorii (zdrowy i uszkodzony) 
+Foldery figures2, tables2, processed_data2 - dla rozpoznawania każdego rodzaju uszkodzenia używając residuum (uszkodzony 1 pręt, uszkodzone 2 pręty, uszkodzony pierścień)
+
+data1/2 - foldery z nieprzetworzonymi surowymi danymi, 1 - wszystkie sygnały, 2 - 7 podobnych napięć w celu liczenia residuum
+processed_data1/2 - foldery z przetworzonymi danymi w postaci plików csv
+Graphs1/2 - notatniki z wykresami dla 1 - rozpoznawania sygnałów bez residuum, 2 - rozpoznawania sygnałów z residuum
+Preprocessing1/2 - notatniki z preprocessingiem danych, 1- bez residuum, 2 - z residuum 
+spline_2/4_categories - notatniki z rozpoznawaniem 2/4 kategorii sygnałów
+spline_res - notatnik z rozpoznawaniem 3 rodzajów uszkodzeń
+spline_mix_2 - plik stan z modelem
+
+
+W folderach figures:
+Pliki '..._raw_signals' wykresy z wszystkimi sygnałami dla danego uszkodzenia przed filtracją
+
+'..._filered_signals' wykresy z wszystkimi sygnałami dla danego uszkodzenia po filtracji
+
+'class_result' wyniki clusterowania, prawdopodobieństwo większe niż 50% - sukces
+
+'spline_base...' wykres spline'ów dla zadanego pomiaru, załączam dla najdłuszego oraz najkrótszego pomiaru w celu pokazania różnic
+
+'Expected_values_base_fnc' wykres funkcji bazowych po nauczeniu modelu
+
+
+figures - rozpoznawanie 4 rodzajów sygnałów
+figures2 - rozpoznawanie 2 rodzajów sygnałów
+figures_res - rozpoznawanie 3 rodzajów uszkodzeń
+
+
+W folderach tables:
+'table_beta_x_summary' - tabela z betami dla każdego clustera 
+dla 4 kategorii beta 1 - zdrowy sygnał, 2 - 1 uszkodzony pręt, 3 - 2 uszkodzone pręty, 4  - uszkodzony pierścień
+dla 2 kategorii beta 1 - zdrowy sygnał, 2 - uszkodzony
+dla 3 kategorii (residuum) beta 1 - 1 uszkodzony pręt, 2 - 2 uszkodzone pręty, 3  - uszkodzony pierścień
+
+
+'table_lambda_summary' - tabela z lambdami każdego clustera (numery lambd tak jak powyżej)
+'table_sigma_summary' - tabela z sigmami każdego clustera (numery sigm tak jak powyżej)
+
+
+tables - rozpoznawanie 4 rodzajów sygnałów
+tables2 - rozpoznawanie 2 rodzajów sygnałów
+tables_res - rozpoznawanie 3 rodzajów uszkodzeń

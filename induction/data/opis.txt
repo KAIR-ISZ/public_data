@@ -1,0 +1,5 @@
+﻿Pliki zmierzone na maszynach w Laboratorium przy obnizonym napieciu.
+Przykład nazwy: pr1_120b - maszyna z jednym prętem uszkodzonym (pr1) i zmierzona przy 120V (_120) faza b (bo mierzone zostały dwie fazy a i b).
+Oczywiście im większe napięcie tym krótszy rozruch.
+Pliki pi_**** dotyczą maszyny z uszkodzonym pierścieniem.
+Fs =1150.748 Hz;
